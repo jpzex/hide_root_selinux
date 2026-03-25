@@ -3,5 +3,5 @@ name=hide_root_selinux
 version=v0.0.1
 versionCode=0001
 author=jpzex
-APatch/KSU module to hide suspicious selinux logs that reveal root. Follow @JpzexReleases on Telegram for updates.
+description=APatch/KSU module to hide suspicious selinux logs that reveal root. Follow @JpzexReleases on Telegram for updates.
 updateJson=https://raw.githubusercontent.com/jpzex/hide_root_selinux/master/update.json
