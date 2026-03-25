@@ -1,0 +1,32 @@
+# adb_data_file (apps)
+dontaudit untrusted_app adb_data_file:dir *;
+dontaudit untrusted_app_all adb_data_file:dir *;
+dontaudit untrusted_app_25 adb_data_file:dir *;
+dontaudit untrusted_app_27 adb_data_file:dir *;
+
+dontaudit untrusted_app adb_data_file:file *;
+dontaudit untrusted_app_all adb_data_file:file *;
+dontaudit untrusted_app_25 adb_data_file:file *;
+dontaudit untrusted_app_27 adb_data_file:file *;
+
+# adb_data_file (system)
+dontaudit system_server adb_data_file:dir *;
+dontaudit system_server adb_data_file:file *;
+
+# magisk_file (apps)
+dontaudit untrusted_app magisk_file:dir *;
+dontaudit untrusted_app_all magisk_file:dir *;
+dontaudit untrusted_app_25 magisk_file:dir *;
+dontaudit untrusted_app_27 magisk_file:dir *;
+
+dontaudit untrusted_app magisk_file:file *;
+dontaudit untrusted_app_all magisk_file:file *;
+dontaudit untrusted_app_25 magisk_file:file *;
+dontaudit untrusted_app_27 magisk_file:file *;
+
+# magisk_file (system)
+dontaudit system_server magisk_file:dir *;
+dontaudit system_server magisk_file:file *;
+
+dontaudit system_app magisk_file:dir *;
+dontaudit system_app adb_data_file:dir *;
